@@ -12,13 +12,15 @@
         <h2>Cadastrar</h2>
         <label for="username">Usuário</label>
         <input type="text" id="username" name="username">
-        
-        <label for="password">Senha</label>
-        <input type="password" id="password" name="password">
-        
-        <label for="confirm-password">Confirmar senha</label>
-        <input type="password" id="confirm-password" name="confirm-password">
-        
+
+        <div class="espaço">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" class="input">
+
+            <label for="confirm-password">Confirmar senha</label>
+            <input type="password" id="confirm-password" name="confirm-password" class="input">
+        </div>
+
         <div class="checkbox-container">
             <input type="checkbox" id="password">
             <label for="password">Exibir senha</label>
@@ -27,7 +29,8 @@
         <button type="submit">Cadastrar</button>
         
         <div class="link">
-            Possui uma conta? <a href="#">Entrar no sistema</a>
+            <p>Possui uma conta?</p> 
+            <a href="#">Entrar no sistema</a>
         </div>
     </div>
 </body>
