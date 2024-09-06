@@ -55,8 +55,7 @@ button {
     color: #1A73E8;
 }
 .checkbox-container {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
     margin-left: 190px;
